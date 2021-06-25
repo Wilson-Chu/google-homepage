@@ -2,8 +2,18 @@ body {
     font-size: 14px;
 }
 
-h1 {
-font-size: 20px;
+nav li {
+    margin: 0 1rem;
+    list-style-type: none;
+    display: inline-block;
+  }
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
 }
 
 p {
