@@ -6,7 +6,13 @@ nav li {
     margin: 0 1rem;
     list-style-type: none;
     display: inline-block;
-  }
+}
+
+footer li {
+    margin: 0 1rem;
+    list-style-type: none;
+    display: inline-block;
+}
 
 h2 {
     font-size: 16px;
@@ -18,4 +24,10 @@ h3 {
 
 p {
     font-size: small;
+}
+
+.buttons li {
+    margin: 0 1rem;
+    list-style-type: none;
+    display: inline-block;
 }
