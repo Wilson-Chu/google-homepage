@@ -1,17 +1,44 @@
 body {
     font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
 }
 
+
 nav li {
-    margin: 0 1rem;
     list-style-type: none;
     display: inline-block;
+    /*display: flex;*/
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+.first {
+    margin-left: 15px;
 }
 
 footer li {
-    margin: 0 1rem;
+    /*margin: 0 1rem;
+    list-style-type: none;
+    display: inline-block;*/
     list-style-type: none;
     display: inline-block;
+    /*display: flex;*/
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin: 0 5px;
+}
+
+.country li {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
 }
 
 h2 {
@@ -22,11 +49,22 @@ h3 {
     font-size: 14px;
 }
 
+/* Center the Google logo and Search Bar underneath */
+.logo {
+    text-align: center;
+}
+.search {
+    text-align: center;
+}
+
+/* Position option for French site */
 p {
     font-size: small;
+    text-align: center;
 }
 
 .buttons li {
+    font-size: 18px;
     margin: 0 1rem;
     list-style-type: none;
     display: inline-block;
