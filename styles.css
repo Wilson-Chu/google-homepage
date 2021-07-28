@@ -2,7 +2,6 @@ body {
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #222;
-    text-decoration: none;
 }
 
 nav li {
@@ -11,14 +10,17 @@ nav li {
     /*display: flex;*/
     align-items: center;
     padding: 6px;
+    margin: 0 5px;
     height: 60px;
     flex-shrink: 0;
     box-sizing: border-box;
-    margin: 0 5px;
+    text-decoration: none;
 }
 
-.first {
-    margin-left: 15px;
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
 }
 
 footer li {
@@ -40,14 +42,6 @@ footer li {
     display: flex;
     padding: 0px;
     margin: 0px;
-}
-
-h2 {
-    font-size: 16px;
-}
-
-h3 {
-    font-size: 14px;
 }
 
 /* Center the Google logo and Search Bar underneath */
@@ -73,6 +67,6 @@ p {
     padding: 8px 16px;
     list-style-type: none;
     display: inline-block;
-    text-decoration: none;
     background-color: #f1f1f1;
+    text-decoration: none;
 }
