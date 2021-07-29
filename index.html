@@ -1,6 +1,25 @@
 <!--This is a clone of the Google homepage using HTML and CSS-->
 <!DOCTYPE html>
 <html>
+<style>
+    #logo {
+        margin-top: 20%;
+        margin-left: 45%;
+    }
+
+    #search {
+        margin-top: 10px;
+        margin-left: 45%;
+    }
+
+    #google-search {
+        margin-left: 40%;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+</style>
 
 <head>
     <link rel="stylesheet" href="styles.css">
@@ -20,10 +39,10 @@
         </ul>
     </nav>
 
-    <img src="images/googlelogo.png" alt="Google Logo" class="logo">
-    <img src="images/search.png" alt="Search" class="search"> 
+    <img src="images/googlelogo.png" alt="Google Logo" id="logo">
+    <img src="images/search.png" alt="Search" id="search">
     <ul class="buttons">
-        <li><a href="#search">Google Search</a></li>
+        <li id="google-search"><a href="#search">Google Search</a></li>
         <li><a href="#feelinglucky">I'm Feeling Lucky</a></li>
     </ul>
 
@@ -31,19 +50,19 @@
 
     <footer>
         <ul class="country">
-            <li>Canada</li>
+            <li style="float:inline-end">Canada</li>
         </ul>
     </footer>
 
     <footer>
-        <ul>
-            
+        <ul style="float:inline-end">
             <li><a href="#advertising">Advertising</a></li>
             <li><a href="#business">Business</a></li>
             <li><a href="#howsearchworks">How Search works</a></li>
-            <li><a href="#privacy">Privacy</a></li>
-            <li><a href="#terms">Terms</a></li>
-            <li><a href="#settings">Settings</a></li>
+            <li style="float:right">><a href="#settings">Settings</a></li>
+            <li style="float:right">><a href="#terms">Terms</a></li>
+            <li style="float:right"><a href="#privacy">Privacy</a></li>
+
         </ul>
     </footer>
 </body>
